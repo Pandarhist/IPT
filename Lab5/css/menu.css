@@ -1,0 +1,30 @@
+@import "normalize.css";
+
+:root{
+    --main-text-color: #FFFFFF;
+    --menu-active-color: #FF5252;
+}
+
+.menu{
+    margin: 10px 0;
+    /*width: 100%;*/
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item{
+    display: inline-flex;
+    font-family: Oswald;
+    color: var(--main-text-color);
+}
+
+.menu-item a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu focused{
+    border: 2px solid var(--main-text-color);
+    border-radius: 3px;
+}

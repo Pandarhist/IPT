@@ -1,0 +1,10 @@
+.image-container {
+    display: inline-block;
+    border: darkblue 5px solid;
+}
+
+.image-container_image {
+    width: 323px;
+    height: 249px;
+}
+

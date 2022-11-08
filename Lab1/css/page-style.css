@@ -1,0 +1,84 @@
+@import "normalize.css";
+
+:root {
+    --main-text: #1A237E;
+    --header-color: aliceblue;
+    --red: #FF5252;
+    --main-bg-blocks: #E6EE9C;
+    --orange: #FFAB40;
+}
+
+body{
+    background: whitesmoke;
+}
+
+/*#region Header */
+
+.header {
+    margin: 0 0 2rem 0;
+    padding: 0.5em;
+    width: 100%;
+    background: var(--main-bg-blocks);
+}
+
+.header h5 {
+    margin: 0;
+    color: var(--main-text);
+    font-size: 2rem;
+    font-family: Bahnschrift;
+}
+
+/*#endregion Header */
+
+/*#region Navigation */
+
+.main-nav {
+    border: 2px solid red;
+    display: block;
+    left: 0;
+}
+
+.main-nav li{
+    display: block;
+    
+}
+
+/*#endregion Navigation */
+
+/* #region Footer */
+
+.footer {
+    margin: 0 0 2rem 0;
+    padding: 0.5rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    background-color: var(--main-bg-blocks);
+    color: var(--main-text);
+}
+
+.footer footer__company-name{
+    font-weight: ;
+}
+/* end#region Footer */
+
+/*#region Links */
+
+a:link {
+    color: var(--main-text)
+}
+
+a:visited {
+    color: var(--main-text);
+}
+
+a:hover{
+    color: #FF5252;
+}
+
+a:active{
+    color: #FF5252;
+}
+
+/*#endregion Links*/

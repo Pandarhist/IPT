@@ -1,0 +1,19 @@
+@import url("normalize.css");
+
+body {
+    background: whitesmoke;
+}
+
+.header {
+    margin: 0em 0em 1rem 0em;
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+    background-color: #1565C0;
+}
+
+.header h1 {
+    margin: 0 0 0 1rem;
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: Oswald, Impact;
+}
