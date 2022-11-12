@@ -1,7 +1,14 @@
 @import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+* {
+    color: var(--another-text);
+}
 
 :root {
     --main-text: #1A237E;
+    --another-text: Indigo;
     --header-color: aliceblue;
     --red: #FF5252;
     --main-bg-blocks: #E6EE9C;
@@ -12,20 +19,38 @@ body{
     background: whitesmoke;
 }
 
-/*#region Header */
-
-.header {
-    margin: 0 0 2rem 0;
-    padding: 0.5em;
-    width: 100%;
+.main-theme {
     background: var(--main-bg-blocks);
+    color: var(--main-text);
 }
+
+/* #region Layout */
+
+.container {
+    margin: 0;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1024px;
+}
+
+/* #endregion Layout */
+
+/*#region Header */
 
 .header h5 {
     margin: 0;
-    color: var(--main-text);
+    float: left;
     font-size: 2rem;
     font-family: Bahnschrift;
+    color: var(--main-text);
+}
+
+.header__logo{
+    height: 2.25rem;
 }
 
 /*#endregion Header */
@@ -33,37 +58,75 @@ body{
 /*#region Navigation */
 
 .main-nav {
-    border: 2px solid red;
-    display: block;
-    left: 0;
+    margin: 0.3em 0;
+    padding: 0;
+    list-style: none;
 }
 
-.main-nav li{
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    padding: 0.4em;
     display: block;
-    
+    transition: .2s linear;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.main-nav a:hover {
+    background-color: lightgray;
+    border-radius: 0.6rem;
 }
 
 /*#endregion Navigation */
 
+/* #region Content */
+
+.content {
+    padding: 1.4em;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content__section-header {
+    color: var(--main-text);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-indent: 1rem;
+}
+
+/* #endregion Content */
+
 /* #region Footer */
 
 .footer {
-    margin: 0 0 0 0;
-    padding: 0.5rem;
-    width: 100%;
-    position: fixed;
-    bottom: 0px;
     text-align: center;
-    background-color: var(--main-bg-blocks);
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer__copyright{
+    font-weight: 300;
     color: var(--main-text);
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px black;
 }
 
-.footer footer__company-name{
-    font-weight: ;
+.footer__office {
+    color: var(--main-text);
+    font-weight: 300;
+    text-decoration: underline;
 }
-/* end#region Footer */
 
-/*#region Links */
+.footer__address{
+    font-weight: 200;
+}
+
+
+/* #endregion Footer */
+
+/* #region Links */
 
 a:link {
     color: var(--main-text)
@@ -73,12 +136,4 @@ a:visited {
     color: var(--main-text);
 }
 
-a:hover{
-    color: #FF5252;
-}
-
-a:active{
-    color: #FF5252;
-}
-
-/*#endregion Links*/
+/* #endregion Links */
