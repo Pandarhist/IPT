@@ -2,29 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Task1</title>
+    <title>Lab3 | Task1</title>
+    <link rel="stylesheet" href="../css/page-style.css">
+    <link rel="stylesheet" href="../css/form-style.css">
 </head>
 <body>
-    <form id="triangle">
-        <h2>Calculate triangle area:</h2>
-        <fieldset>
-            <legend>Point A coordinates:</legend>
-            <label for="xA">X: </label><input id="xA" name="xA" type="number" />
-            <label for="yA">Y: </label><input id="yA" name="yA" type="number" />
-        </fieldset>
-        <fieldset>
-            <legend>Point B coordinates:</legend>
-            <label for="xB">X: </label><input id="xB" name="xB" type="number" />
-            <label for="yB">Y: </label><input id="yB" name="yB" type="number" />
-        </fieldset>
-        <fieldset>
-            <legend>Point C coordinates:</legend>
-            <label for="xC">X: </label><input id="xC" name="xC" type="number" />
-            <label for="yC">Y: </label><input id="yC" name="yC" type="number" />
-        </fieldset>
-        <label for="result">Result: </label><output id="result" name="result"></output>
-        <input type="reset" value="Reset" />
-    </form>
-    <script src="../js/triangle.js"></script>
+    <header class="header">
+        <div class="container main-theme">
+            <h1>Task 1</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="main-nav">
+            <li class="main-nav__item"><a href="#">Task1</a></li>
+            <li class="main-nav__item"><a href="task2.html">Task2</a></li>
+            <li class="main-nav__item"><a href="task3.html">Task3</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <main class="content">
+            <form id="triangle" class="form">
+                <h2 class="form__caption">Calculating triangle area</h2>
+                <fieldset class="form__coord">
+                    <h2>Point A coordinates:</h2>
+                    <label>X: <input name="xA" type="number" /></label>
+                    <label>Y: <input name="yA" type="number" /></label>
+                </fieldset>
+                <fieldset class="form__coord">
+                    <h2>Point B coordinates:</h2>
+                    <label>X: <input name="xB" type="number" /></label>
+                    <label>Y: <input name="yB" type="number" /></label>
+                </fieldset>
+                <fieldset class="form__coord">
+                    <h2>Point C coordinates:</h2>
+                    <label>X: <input name="xC" type="number" /></label>
+                    <label>Y: <input name="yC" type="number" /></label>
+                </fieldset>
+                <label class="form__result"><strong>Result:</strong> <output name="result"></output></label>
+                <input class="form__reset main-theme" type="reset" value="Reset" />
+            </form>
+        </main>
+    </div>
+    <script src="../js/task1.js"></script>
 </body>
 </html>

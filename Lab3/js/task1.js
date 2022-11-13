@@ -34,6 +34,7 @@ function getEdgeLength(point1, point2){
 
 function getTriangleArea(edge1, edge2, edge3){
     let p = (edge1 + edge2 + edge3) / 2;
+    let s = Math.sqrt(p * (p - edge1) * (p - edge2) * (p - edge3));
 
-    return Math.sqrt(p * (p - edge1) * (p - edge2) * (p - edge3));
+    return parseFloat(s).toFixed(2);
 }
