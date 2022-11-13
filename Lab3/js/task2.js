@@ -14,12 +14,12 @@ function calculateVector() {
 }
 
 function getPoint(x, y){
-    return new Object( { x: x, y: y });
+    return new Object( { x: x, y: y } );
 }
 
 function getEdgeLength(point1, point2){
     let dX = point2.x - point1.x;
     let dY = point2.y - point1.y;
 
-    return Math.sqrt(dX**2 + dY**2);
+    return parseFloat(Math.sqrt(dX**2 + dY**2)).toFixed(2);
 }

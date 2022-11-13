@@ -16,26 +16,35 @@
   font-weight: 300;
 }
 
-.form__coord {
+.form__section {
   margin: 0.5rem auto;
   border: none;
   border-radius: 1rem;
-  background-color: var(--dirty-white);
 }
 
-.form__coord h2 {
+.form__section h2 {
   margin-top: 0;
   font-weight: 200;
   font-size: larger;
   text-decoration: underline;
 }
 
-.form input[type=number] {
+.inputs-container {
+  margin: 0.7rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form__input {
   width: 10rem;
   padding: 0.35rem 0.5rem;
   border: none;
   border-radius: 0.5rem;
-  box-shadow:0 0 15px 4px rgba(0,0,0,0.09);
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+}
+
+.form input[type=number]
+{
   -moz-appearance: textfield;
 	-webkit-appearance: textfield;
   appearance: textfiled;
@@ -58,7 +67,7 @@
 }
 
 .form__reset:hover {
-  background-color: darkblue;
   color:lightgray;
+  transition: .3s linear;
   cursor: pointer;
 }

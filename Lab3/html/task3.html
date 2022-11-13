@@ -3,13 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Lab3 | Task3</title>
+    <link rel="stylesheet" href="../css/page-style.css">
+    <link rel="stylesheet" href="../css/form-style.css">
 </head>
 <body>
-    <form name="swapping">
-        <input name="var1" type="text" placeholder="First variable" autofocus />
-        <input name="var2" type="text" placeholder="Second variable" />
-        <input type="reset" value="Reset" />
-    </form>
+    <header class="header">
+        <div class="container main-theme">
+            <h1>Task 3</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="main-nav">
+            <li class="main-nav__item"><a href="task1.html">Task1</a></li>
+            <li class="main-nav__item"><a href="task2.html">Task2</a></li>
+            <li class="main-nav__item"><a href="#.html">Task3</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <main class="content">
+            <form name="swapping" class="form">
+                <h2 class="form__caption">Swapping elements</h2>
+                <div class="inputs-container">
+                    <input class="form__input" name="var1" placeholder="First variable" autofocus />
+                    <input class="form__input" name="var2" placeholder="Second variable" />
+                </div>
+                <input class="form__reset main-theme" type="reset" value="Reset" />
+            </form>
+        </main>
+    </div>
     <script src="../js/task3.js"></script>
 </body>
 </html>
