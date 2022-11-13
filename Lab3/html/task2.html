@@ -2,18 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Task2</title>
+    <title>Lab3 | Task2</title>
+    <link rel="stylesheet" href="../css/page-style.css">
+    <link rel="stylesheet" href="../css/form-style.css">
 </head>
 <body>
-  <form name="vector">
-      <fieldset>
-      <legend>Point A coordinates:</legend>
-      <label for="xA">X: </label><input id="xA" name="xA" type="number" />
-      <label for="yA">Y: </label><input id="yA" name="yA" type="number" />
-    </fieldset>
-      <label for="vector-length">Result: </label><output id="vector-length" name="result"></output>
-      <input type="reset" value="Reset" />
-  </form>
-  <script src="../js/vectorLength.js"></script>
+    <header class="header">
+        <div class="container main-theme">
+            <h1>Task 2</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="main-nav">
+            <li class="main-nav__item"><a href="task1.html">Task1</a></li>
+            <li class="main-nav__item"><a href="#.html">Task2</a></li>
+            <li class="main-nav__item"><a href="task3.html">Task3</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <main class="content">
+          <form name="vector" class="form">
+            <h2 class="form__caption">Calculating vector</h2>
+            <fieldset class="form__section">
+              <h2>Point A coordinates:</h2>
+              <label>X: <input class="form__input" name="xA" type="number" /></label>
+              <label>Y: <input class="form__input" name="yA" type="number" /></label>
+            </fieldset>
+              <label class="form__result"><strong>Result:</strong> <output name="result">0.00</output></label>
+              <input class="form__reset main-theme" type="reset" value="Reset" />
+          </form>
+        </main>
+    </div>
+  <script src="../js/task2.js"></script>
 </body>
 </html>
