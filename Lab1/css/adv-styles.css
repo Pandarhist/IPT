@@ -1,0 +1,22 @@
+:root {
+  --main-color: #1A237E;;
+}
+
+.content__products{
+  margin-right: -10px;
+  border: 3px solid;
+  border-collapse: separate;
+  border-spacing: 3px;
+}
+
+.content__group-header {
+  background-color: aquamarine;
+}
+
+.content__product-row {
+  background-color: aliceblue;
+}
+
+.content__product-row > :first-child {
+  font-weight: 600;
+}
