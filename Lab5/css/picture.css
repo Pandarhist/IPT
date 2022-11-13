@@ -8,3 +8,7 @@
     height: 249px;
 }
 
+.image-transformed {
+    transform: scale(1.5, 1.5);
+}
+
