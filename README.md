@@ -13,10 +13,10 @@
 3. [Функции и обработка события](Lab3/README.md);
 4. [Операторы ветвлений и циклов, логические операции в JavaScript](Lab4/README.md);
 5. [Методы в JavaScript](Lab5/README.md);
-6. [Lab6](#);
-7. [Lab7](#);
-8. [Lab8](#);
-9. [Lab9](#);
-10. [Lab10](#);
-11. [Lab11](#);
-12. [Lab12](#);
+6. [Lab6](Lab6/README.md);
+7. [Lab7](Lab7/README.md);
+8. [Lab8](Lab8/README.md);
+9. [Lab9](Lab9/README.md);
+10. [Lab10](Lab10/README.md);
+11. [Lab11](Lab11/README.md);
+12. [Lab12](Lab12/README.md);
