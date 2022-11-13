@@ -88,6 +88,13 @@
   font-weight: 200;
 }
 
+.section__header {
+  margin: 0.3rem;
+  font-weight: 400;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
 /* #endregion Content */
 
 /* #region Links */
