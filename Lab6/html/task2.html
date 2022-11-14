@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab6 | Task2</title>
+    <link rel="stylesheet" href="../css/page-style.css">
+    <link rel="stylesheet" href="../css/form-style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container main-theme">
+            <h1>Task 2</h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="main-nav">
+            <li class="main-nav__item"><a class="main-nav__link" href="task1.html">Task1</a></li>
+            <li class="main-nav__item"><a class="main-nav__link" href="#">Task2</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <main class="content">
+            <form id="triangle" class="form">
+                <h2 class="form__caption">Processing array</h2>
+                <fieldset class="form__section">
+                    <h2>Random values bounds</h2>
+                    <div class="horizontal-container">
+                        <label>A: <input class="form__input form__input-medium" required /></label>
+                        <label>B: <input class="form__input form__input-medium" type="number" required /></label>
+                        <label>Length: <input class="form__input form__input-medium" type="number" required /></label>
+                    </div>
+                </fieldset>
+                <fieldset class="form__section">
+                    <h2>Results</h2>
+                    <label class="form__result"><strong>Array:</strong> <output name="result"></output></label>
+                    <label class="form__result"><strong>Squared array:</strong> <output name="result"></output></label>
+                </fieldset>
+                <div class="horizontal-container">
+                    <input class="form__button form__button-medium main-theme" type="submit" value="Generate" />
+                    <input class="form__button form__button-medium main-theme" type="reset" value="Clear" />
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="../js/task1.js"></script>
+</body>
+</html>
