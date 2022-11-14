@@ -20,28 +20,28 @@
     </nav>
     <div class="wrapper">
         <main class="content">
-            <form id="triangle" class="form">
+            <form id="processing" class="form">
                 <h2 class="form__caption">Processing array</h2>
                 <fieldset class="form__section">
                     <h2>Random values bounds</h2>
                     <div class="horizontal-container">
-                        <label>A: <input class="form__input form__input-medium" required /></label>
-                        <label>B: <input class="form__input form__input-medium" type="number" required /></label>
-                        <label>Length: <input class="form__input form__input-medium" type="number" required /></label>
+                        <label>A: <input class="form__input form__input-medium" type="number" name="minBound" /></label>
+                        <label>B: <input class="form__input form__input-medium" type="number" name="maxBound" /></label>
+                        <label>Length: <input class="form__input form__input-medium" type="number" name="length" /></label>
                     </div>
                 </fieldset>
                 <fieldset class="form__section">
                     <h2>Results</h2>
-                    <label class="form__result"><strong>Array:</strong> <output name="result"></output></label>
-                    <label class="form__result"><strong>Squared array:</strong> <output name="result"></output></label>
+                    <label class="form__result"><strong>Array:</strong> <output name="array"></output></label>
+                    <label class="form__result"><strong>Squared array:</strong> <output name="modArray"></output></label>
                 </fieldset>
                 <div class="horizontal-container">
-                    <input class="form__button form__button-medium main-theme" type="submit" value="Generate" />
+                    <input class="form__button form__button-medium main-theme" type="button" value="Generate" name="generate" />
                     <input class="form__button form__button-medium main-theme" type="reset" value="Clear" />
                 </div>
             </form>
         </main>
     </div>
-    <script src="../js/task1.js"></script>
+    <script src="../js/task2.js"></script>
 </body>
 </html>
