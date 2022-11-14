@@ -62,7 +62,7 @@
   text-align: center;
 }
 
-.main-nav__item a {
+.main-nav__link {
   width: 80%;
   margin: 0 auto;
   display: block;
@@ -73,7 +73,7 @@
   font-size: larger;
 }
 
-.main-nav__item a:hover {
+.main-nav__link-hover {
   border-radius: 0.8rem;
   background-color: lightgray;
   color: darkred;
