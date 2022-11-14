@@ -2,28 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/page.css">
-    <link rel="stylesheet" href="../css/picture.css">
     <title>Lab5 | Task1</title>
+    <link rel="stylesheet" href="../css/page-style.css">
+    <link rel="stylesheet" href="../css/picture.css">
 </head>
 <body>
-<div class="header">
-    <header class="header-caption">
-        <h1>Lab5. Nikita Kazimov</h1>
-    </header>
-</div>
-<div class="image-container">
-    <img src="#" id="first-img" class="image-container_image" alt="First picture" >
-</div>
-<div class="image-container">
-    <img src="#" id="second-img" class="image-container_image"  alt="Second picture">
-</div>
-<div class="image-container">
-    <img src="#" id="third-img" class="image-container_image" alt="Third picture">
-</div>
-<div class="image-container">
-    <img src="#" id="current-img" class="image-container_image" alt="Current image" >
+<header class="header">
+    <div class="container main-theme">
+        <h1>Task 1</h1>
+    </div>
+</header>
+<nav>
+    <ul class="main-nav">
+        <li class="main-nav__item"><a class="main-nav__link" href="#">Task1</a></li>
+        <li class="main-nav__item"><a class="main-nav__link" href="task2.html">Task2</a></li>
+    </ul>
+</nav>
+<div class="wrapper">
+    <main class="content">
+        <section>
+            <h2  class="section__header">Pictures</h2>
+            <div class="images-container">
+                <div class="image-container">
+                    <img src="#" id="first-img" class="image-container_image" alt="First picture" >
+                </div>
+                <div class="image-container">
+                    <img src="#" id="second-img" class="image-container_image"  alt="Second picture">
+                </div>
+                <div class="image-container">
+                    <img src="#" id="third-img" class="image-container_image" alt="Third picture">
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="section__header">Selected picture:</h2>
+            <div class="images-container">
+                <div class="image-container" style="text-align: center;">
+                    <img src="#" id="current-img" class="image-container_image" alt="Current image" >
+                </div>
+            </div>
+        </section>
+    </main>
 </div>
 <script src="../js/task1.js"></script>
+<script src="../js/task3.js"></script>
 </body>
 </html>

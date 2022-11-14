@@ -10,6 +10,6 @@ secondImg.src = "../resources/picture2.png";
 thirdImg.src = "../resources/picture3.png";
 currentImg.src = "../resources/picture1.png";
 
-firstImg.onclick = function (){ currentImg.src = firstImg.src; };
-secondImg.onclick = function (){ currentImg.src = secondImg.src; };
-thirdImg.onclick = function (){ currentImg.src = thirdImg.src; };
+firstImg.onclick = () => currentImg.src = firstImg.src;
+secondImg.onclick = () => currentImg.src = secondImg.src;
+thirdImg.onclick = () => currentImg.src = thirdImg.src;
