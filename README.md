@@ -14,7 +14,7 @@
 4. [Операторы ветвлений и циклов, логические операции в JavaScript](Lab4/README.md);
 5. [Методы в JavaScript](Lab5/README.md);
 6. [Обработка массивов](Lab6/README.md);
-7. [Lab7](Lab7/README.md);
+7. [Использование элементов управления](Lab7/README.md);
 8. [Lab8](Lab8/README.md);
 9. [Lab9](Lab9/README.md);
 10. [Lab10](Lab10/README.md);

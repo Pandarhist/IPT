@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/page-style.css">
+    <link rel="stylesheet" href="../css/form-style.css">
+    <title>Lab7</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container main-theme">
+            <h1>Pizza shop</h1>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main class="content">
+            <form id="order" class="form">
+                <h2 class="form__caption">Order list</h2>
+                <div id="products" class="horizontal-container">
+                </div>
+                <div class="form__additional-info horizontal-container">
+                    <label>Need delivery? <input id="isdelivery" type="checkbox" value="false" /></label>
+                </div>
+                <div class="horizontal-container">
+                    <button id="order-button" class="form__button form__button-medium main-theme" >Order</button>
+                    <input class="form__button form__button-medium main-theme" type="reset" value="Reset" />
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

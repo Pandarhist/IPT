@@ -1,0 +1,148 @@
+:root {
+  --blue: #3F51B5;
+  --dirty-white: aliceblue;
+}
+
+.form {
+  max-width: 931px;
+  min-width: 300px;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 2px solid lightgray;
+  border-radius: 0.55rem;
+}
+
+.form__caption {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+.horizontal-container{
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* #region Sections */
+
+.form__section {
+  margin: 1.2rem auto;
+  border: none;
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.2);
+  border-radius: 1rem;
+}
+
+.form__section h2 {
+  margin-top: 0;
+  font-weight: 200;
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.form__price-block {
+  margin: 10px;
+  text-align: center;
+}
+
+.form__price {
+  font-size: x-large;
+}
+
+.form__price-desc {
+  font-weight: 400;
+}
+
+.form__price::after{
+  content: ' ₽';
+  font-size: large;
+  font-weight: 200;
+}
+
+.form__additional-info {
+  font-size: x-large;
+}
+
+/* #endregion */
+
+/* #region Inputs */
+
+.inputs-container {
+  margin: 0.7rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form__input {
+  margin: 0.33em;
+  padding: 0.35rem 0.5rem;
+  text-align: center;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+}
+
+.form input[type=number] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfiled;
+}
+
+.form__product-count {
+  display: block;
+  margin: 10px auto;
+}
+
+.form__input-large {
+  width: 20rem;
+}
+
+.form__input-medium {
+  width: 8rem;
+}
+
+.form__input-small {
+  width: 5rem;
+}
+
+/* #endregion */
+
+/* #region Buttons */
+
+.form__button {
+  width: 100%;
+  margin: 0.25rem;
+  padding: 0.45rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: larger;
+}
+
+.form__button-medium {
+  width: 12.4rem;
+}
+
+.form__button:hover {
+  color:lightgray;
+  transition: .3s linear;
+  cursor: pointer;
+}
+
+/* #endregion Buttons */
+
+/* #region Images */
+
+.product__img-container {
+  width: 13rem;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.product__img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* #endregion */
