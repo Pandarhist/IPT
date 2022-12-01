@@ -18,5 +18,5 @@
 8. [Lab8](Lab8/README.md);
 9. [Обработка изображений](Lab9/README.md);
 10. [Lab10](Lab10/README.md);
-11. [Lab11](Lab11/README.md);
+11. [JQuery. Основные методы](Lab11/README.md);
 12. [Lab12](Lab12/README.md);
