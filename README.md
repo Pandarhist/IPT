@@ -15,8 +15,8 @@
 5. [Методы в JavaScript](Lab5/README.md);
 6. [Обработка массивов](Lab6/README.md);
 7. [Использование элементов управления](Lab7/README.md);
-8. [Lab8](Lab8/README.md);
+8. [Формы](Lab8/README.md);
 9. [Обработка изображений](Lab9/README.md);
-10. [Lab10](Lab10/README.md);
+10. [Использование объектной модели DOM](Lab10/README.md);
 11. [JQuery. Основные методы](Lab11/README.md);
 12. [Lab12](Lab12/README.md);
