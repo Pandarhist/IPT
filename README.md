@@ -19,4 +19,4 @@
 9. [Обработка изображений](Lab9/README.md);
 10. [Использование объектной модели DOM](Lab10/README.md);
 11. [JQuery. Основные методы](Lab11/README.md);
-12. [Lab12](Lab12/README.md);
+12. [Тест по JQuery](Lab12/README.md);

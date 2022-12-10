@@ -9,7 +9,6 @@ calcBtn.addEventListener('click', () => processTime());
 resetBtn.addEventListener('click', () => clearForm());
 
 function processTime () {
-    let input = timeTextBox.value;
     let time = parseTime(timeTextBox.value);
 
     if (Date.now() < time.getTime()) {
