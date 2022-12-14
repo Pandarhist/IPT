@@ -1,0 +1,93 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap');
+
+:root {
+  --white: #FAFAFA;
+  --sky-blue: #3F51B5; 
+  --gray: hsl(198, 16%, 84%);
+  --light-red: #F48FB1;
+  --light-pink: #FFCDD2;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.main-theme {
+  background-color: var(--sky-blue);
+  color: var(--white);
+}
+
+/* #region Layout */
+
+.wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+
+main {
+  background-color: white;
+}
+
+/* #endregion Layout */
+
+/* #region Header */
+
+.header {
+  box-shadow: 0px 1.5 px var(--gray);
+}
+
+.header h1 {
+  margin: 0 auto;
+  padding: 20px 15px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* #endregion Header */
+
+/* #region Content */
+
+.content {
+  padding: 0 20px 3px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.section h2 {
+  margin: 5px;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: xx-large;
+  text-decoration: underline;
+}
+
+.section:first-child h2 {
+  margin-top: 0;
+}
+
+.person-role {
+  font-weight: 500;
+}
+
+.labs-links {
+  padding: 0;
+  list-style: none;
+}
+
+.labs-links li {
+  margin: 6px 0;
+}
+
+.labs-links a {
+  color: var(--sky-blue);
+}
+
+.labs-links a:hover {
+  color: var(--light-red);
+  text-shadow: 2px 2px rgb(198, 16%, 84%, .3);
+}
+
+/* #endregion Content */
